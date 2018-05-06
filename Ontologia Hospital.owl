@@ -1,0 +1,242 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#"
+     xml:base="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Alcool -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Alcool">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#EqMedico"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Bisturi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Bisturi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#EqMedico"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#CartaoPlanoSaude -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#CartaoPlanoSaude">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#EqN_Medico"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Computador -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Computador">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#EqN_Medico"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Cracha -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Cracha">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#EqN_Medico"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Doenca -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Doenca"/>
+    
+
+
+    <!-- http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Doente -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Doente">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Saude"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Enfermeiro -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Enfermeiro">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Pessoa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#EqMedico -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#EqMedico">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Ferramenta"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#EqN_Medico -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#EqN_Medico">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Ferramenta"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Ferramenta -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Ferramenta"/>
+    
+
+
+    <!-- http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Funcionario -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Funcionario">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Pessoa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Gripe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Gripe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Doenca"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#HIV -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#HIV">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Doenca"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Hipertensao -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Hipertensao">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Doenca"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Jaleco -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Jaleco">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#EqMedico"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Luvas -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Luvas">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#EqMedico"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Maca -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Maca">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#EqMedico"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Malaria -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Malaria">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Doenca"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Medico -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Medico">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Pessoa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Paciente -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Paciente">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Pessoa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Pessoa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Pessoa"/>
+    
+
+
+    <!-- http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Saudavel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Saudavel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Saude"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Saude -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Saude"/>
+    
+
+
+    <!-- http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Seringa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Seringa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#EqMedico"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Servicos_Gerais -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Servicos_Gerais">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Pessoa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#TDAH -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#TDAH">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Doenca"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#TOC -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#TOC">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Doenca"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
