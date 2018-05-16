@@ -13,6 +13,136 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Has -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Has">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Pessoa"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Sex"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Realiza -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Realiza">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Medico"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Diagnostico"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#TemMovel -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#TemMovel">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Centro_Cirurgico"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Consultorio"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#UTI"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Maca"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#estáAlocado -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#estáAlocado">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Funcionario"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Medico"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Paciente"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Servicos_Gerais"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Ambulatorio"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Centro_Cirurgico"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Consultorio"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Enfermaria"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#UTI"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#temNome -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#temNome">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Realiza"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Pessoa"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#temSexo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#temSexo">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Pessoa"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#trabalha -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#trabalha">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Medico"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Servicos_Gerais"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Hospital"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#É -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#É">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Pessoa"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Paciente"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#topObjectProperty -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#topObjectProperty">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Pessoa"/>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#CPF -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#CPF"/>
+    
+
+
+    <!-- http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Idade -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Idade"/>
+    
+
+
+    <!-- http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Nome -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Nome"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // Classes
     //
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -29,10 +159,42 @@
     
 
 
+    <!-- http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Ambulatorio -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Ambulatorio">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Area"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Amil -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Amil">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#PlanoDeSaude"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Area -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Area">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Hospital"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Bisturi -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Bisturi">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#EqMedico"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Camed -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Camed">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#PlanoDeSaude"/>
     </owl:Class>
     
 
@@ -45,10 +207,34 @@
     
 
 
+    <!-- http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Centro_Cirurgico -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Centro_Cirurgico">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Area"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Computador -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Computador">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#EqN_Medico"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Condicao -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Condicao">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Diagnostico"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Consultorio -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Consultorio">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Area"/>
     </owl:Class>
     
 
@@ -61,16 +247,54 @@
     
 
 
+    <!-- http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Diagnostico -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Diagnostico"/>
+    
+
+
     <!-- http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Doenca -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Doenca"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Doenca">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Diagnostico"/>
+    </owl:Class>
     
 
 
     <!-- http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Doente -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Doente">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Saude"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Estado_Saude"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Edificacao -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Edificacao">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#É"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Funcionario"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#É"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#SUS"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Enfermaria -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Enfermaria">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Area"/>
     </owl:Class>
     
 
@@ -99,6 +323,12 @@
     
 
 
+    <!-- http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Estado_Saude -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Estado_Saude"/>
+    
+
+
     <!-- http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Ferramenta -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Ferramenta"/>
@@ -109,6 +339,14 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Funcionario">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Pessoa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Gravidez -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Gravidez">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Condicao"/>
     </owl:Class>
     
 
@@ -129,10 +367,26 @@
     
 
 
+    <!-- http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Hapvida -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Hapvida">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#PlanoDeSaude"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Hipertensao -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Hipertensao">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Doenca"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Hospital -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Hospital">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Edificacao"/>
     </owl:Class>
     
 
@@ -177,6 +431,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Men -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Men">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Sex"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Paciente -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Paciente">
@@ -191,17 +453,33 @@
     
 
 
-    <!-- http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Saudavel -->
+    <!-- http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#PlanoDeSaude -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Saudavel">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Saude"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#PlanoDeSaude"/>
+    
+
+
+    <!-- http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Recepcao -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Recepcao">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Area"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Saude -->
+    <!-- http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#SUS -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Saude"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#SUS">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#PlanoDeSaude"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Saudavel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Saudavel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Estado_Saude"/>
+    </owl:Class>
     
 
 
@@ -221,10 +499,16 @@
     
 
 
+    <!-- http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Sex -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Sex"/>
+    
+
+
     <!-- http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#TDAH -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#TDAH">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Doenca"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Transtorno"/>
     </owl:Class>
     
 
@@ -232,8 +516,99 @@
     <!-- http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#TOC -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#TOC">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Doenca"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Transtorno"/>
     </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Transtorno -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Transtorno">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Diagnostico"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#UTI -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#UTI">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Area"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Unimed -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Unimed">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#PlanoDeSaude"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Woman -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Woman">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Sex"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Carlos -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Carlos"/>
+    
+
+
+    <!-- http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Funcionário -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Funcionário"/>
+    
+
+
+    <!-- http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Jaymsson -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Jaymsson"/>
+    
+
+
+    <!-- http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Maria -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Maria"/>
+    
+
+
+    <!-- http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#OR_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#OR_1"/>
+    
+
+
+    <!-- http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#OR_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#OR_2"/>
+    
+
+
+    <!-- http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Pacientes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Pacientes"/>
+    
+
+
+    <!-- http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Rute -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/casa/ontologies/2018/4/untitled-ontology-2#Rute"/>
 </rdf:RDF>
 
 
